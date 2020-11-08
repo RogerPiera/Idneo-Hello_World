@@ -1,6 +1,6 @@
 node {
     checkout scm
 
-    def customImage = docker.build("HelloIdneo")
+    def customImage = docker.build("helloidneo")
 }
 	
